@@ -1,0 +1,234 @@
+<head>
+ <link rel="icon" type="image/png" href="logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>an27nne</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter', sans-serif;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+color:white;
+position:relative;
+overflow:hidden;
+background:#0b0a12;
+}
+
+body::before{
+content:"";
+position:fixed;
+inset:0;
+z-index:-1;
+
+background:
+radial-gradient(circle at 20% 20%, rgba(168,85,247,0.45), transparent 40%),
+radial-gradient(circle at 80% 25%, rgba(139,92,246,0.35), transparent 45%),
+radial-gradient(circle at 50% 80%, rgba(124,58,237,0.30), transparent 50%),
+radial-gradient(circle at 30% 70%, rgba(192,132,252,0.25), transparent 55%);
+
+filter: blur(110px);
+opacity:0.95;
+}
+
+.container{
+width:100%;
+max-width:430px;
+padding:26px;
+border-radius:22px;
+
+background:rgba(20,20,35,0.7);
+backdrop-filter: blur(18px);
+
+border:1px solid rgba(255,255,255,0.08);
+box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+position:relative;
+}
+
+.logo{
+text-align:center;
+margin-bottom:18px;
+}
+
+.logo img{
+width:115px;
+border-radius:18px;
+box-shadow:0 0 30px rgba(168,85,247,0.4);
+transition:0.3s;
+}
+
+.logo img:hover{
+transform:scale(1.05);
+}
+
+h1{
+text-align:center;
+font-size:1.7rem;
+margin-bottom:14px;
+color:#c084fc;
+}
+
+.info-box{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.08);
+
+padding:14px 18px;
+border-radius:16px;
+
+margin-bottom:16px;
+
+font-size:0.95rem;
+line-height:1.6;
+text-align:center;
+
+color:#e9d5ff;
+opacity:0.9;
+}
+
+.link{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:15px 16px;
+margin-bottom:12px;
+
+border-radius:14px;
+
+background:rgba(255,255,255,0.04);
+border:1px solid rgba(255,255,255,0.08);
+
+text-decoration:none;
+color:#d8b4fe;
+
+transition:0.25s ease;
+}
+
+.link:hover{
+transform:translateX(5px);
+background:rgba(168,85,247,0.15);
+border-color:rgba(168,85,247,0.35);
+color:white;
+}
+
+.copy-btn{
+position:absolute;
+top:18px;
+right:18px;
+
+width:42px;
+height:42px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+
+background:rgba(255,255,255,0.06);
+border:1px solid rgba(255,255,255,0.12);
+
+cursor:pointer;
+
+transition:0.2s;
+backdrop-filter: blur(10px);
+}
+
+.copy-btn:hover{
+background:rgba(168,85,247,0.3);
+transform:scale(1.08);
+}
+
+.copy-btn img{
+width:20px;
+height:20px;
+opacity:0.9;
+}
+
+footer{
+text-align:center;
+margin-top:18px;
+font-size:0.75rem;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<button class="copy-btn" onclick="copyLink()">
+<img src="icon.png" alt="copy">
+</button>
+
+<div class="logo">
+<img src="logo.png">
+</div>
+
+<h1>an27nne</h1>
+
+
+<div class="info-box">
+Hey! Eu sunt Bambi 🦌💗<br>
+Sunt gameriță 🎮 și fac live-uri zilnic 🔴<br>
+Îmi place să mă joc, să râd și să petrec timp cu voi 🌸✨
+</div>
+
+<a class="https://www.youtube.com/@BambiYT2005" href="#" target="_blank">
+<span>▶️ YouTube</span>
+<span>➜</span>
+</a>
+
+<a class="link" href="https://www.instagram.com/an27nne" target="_blank">
+<span>📸 Instagram</span>
+<span>➜</span>
+</a>
+
+<a class="https://open.spotify.com/user/bfebe9wx70riqx0iqthf7oont?nd=1&dlsi=55f6113ff9db4e85" href="#" target="_blank">
+<span>🎧 Spotify</span>
+<span>➜</span>
+</a>
+
+<a class="link" href="https://www.tiktok.com/@a27nne" target="_blank">
+<span>🎵 TikTok</span>
+<span>➜</span>
+</a>
+
+<a class="https://www.snapchat.com/@an27nne" href="#" target="_blank">
+<span>👻 Snapchat</span>
+<span>➜</span>
+</a>
+
+<a class="https://www.tiktok.com/messages/group?awedp_require_login=normal&conversation_id=7545237319822688534&conversation_short_id=7545237319822688534&et_group_type=normal_group_chat&group_name=Bambi+Comunity+%F0%9F%A4%8D%F0%9F%A6%8C&group_type=normal_group_chat&invite_id=7b494877-807f-413f-b330-818097455a4c" href="#" target="_blank">
+<span>💬 TikTok Group Chat</span>
+<span>➜</span>
+</a>
+
+<footer>
+© 2025 an27nne
+</footer>
+
+</div>
+
+<script>
+function copyLink(){
+navigator.clipboard.writeText(window.location.href);
+alert("Link copied 💜");
+}
+</script>
+
+</body>
